@@ -15,12 +15,12 @@ public class Exercicio_Pilha_01 {
 		int codigo =0;
 		String nome;
 		
-		System.out.println("********************************");
-		System.out.println("1 - Adicionar Livro na Pilha    ");
-		System.out.println("2 - Listar todos os Livros      ");
-		System.out.println("3 - Retirar Livro da Pilha      ");
-		System.out.println("0 - Sair                        ");
-		System.out.println("********************************");
+		System.out.println(" ________________________________");
+		System.out.println("|1 - Adicionar Livro na Pilha    |");
+		System.out.println("|2 - Listar todos os Livros      |");
+		System.out.println("|3 - Retirar Livro da Pilha      |");
+		System.out.println("|0 - Sair                        |");
+		System.out.println("|________________________________|");
 		
 		
 		do {
@@ -61,7 +61,7 @@ public class Exercicio_Pilha_01 {
 				}
 				break;
 			case 0:
-				   System.out.println("\nPrograma Finalizado!\n");
+				   System.exit(0);
 				   break;
 			}
 			
